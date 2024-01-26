@@ -12,13 +12,11 @@
 
 <body class="bg-black text-white ">
     <div class="flex container mx-auto">
-        <div class="first  w-[75%] my-5 pr-20 ">
+        <div class="first  w-[40%] my-5 ml-20 mr-0 pr-20">
 
-            <div class="sidebar flex justify-end m-auto sticky top-0">
-                <div class="logo invert pr-20  pb-6">
+            <div class="sidebar flex flex-col justify-end m-auto sticky top-0">
+                <div class="logo invert pr-48  pb-6 ">
                     <img class="w-8 m-auto " src="images/logo.svg" alt="ok">
-
-
                 </div>
                 <ul class="flex flex-col  text-xl space-y-1 ">
                     <li
@@ -92,16 +90,19 @@
 
         <!-- Middle Section -->
         <div class="second over  w-[80%]  border-x-slate-800 border-[1px] border-y-black">
-
-            <div class="top flex m-3 relative">
-                <div class="absolute w-16 h-1 bg-blue-700 -bottom-3 left-[17%] rounded-sm"></div>
-                <div class="left w-1/2 text-center font-bold z-10">For you</div>
-                <div class="right w-1/2 text-center font bold">Following</div>
-                <div class="settings"><span class=" material-symbols-outlined">
-                        settings
-                    </span></div>
+            <div class="sticky top-0">
+                <div class="top flex my-3 relative ">
+                    <div class="absolute w-16 h-1 bg-blue-700 -bottom-3 left-[17%] rounded-sm"></div>
+                    <div class="left w-1/2 text-center font-bold z-10">For you</div>
+                    <div class="right w-1/2 text-center font bold">Following</div>
+                    <div class="settings"><span class=" material-symbols-outlined">
+                            settings
+                        </span></div>
+                    <div class="absolute -bottom-3 h-[1px] w-full bg-gray-700"></div>
+                </div>
             </div>
-            <div class="h-[1px] w-full bg-gray-700"></div>
+
+
             <div class="whatishappening flex gap-3">
                 <div class="img m-2">
                     <img class="rounded-full " src="images/user.png" alt="">
@@ -117,31 +118,99 @@
 
                     </div>
                     <div class="w-[95%] h-[1px] bg-gray-700  my-3 "></div>
-                    <div class="options flex gap-2 text-blue-600">
-                        <span class="material-symbols-outlined">
-                            imagesmode
-                        </span>
-                        <span class="material-symbols-outlined">
-                            gif_box
-                        </span>
-                        <span class="material-symbols-outlined">
-                            ballot
-                        </span>
-                        <span class="material-symbols-outlined">
-                            mood
-                        </span>
-                        <span class="material-symbols-outlined">
-                            pending_actions
-                        </span>
-                        <span class="material-symbols-outlined">
-                            location_on
-                        </span>
+                    <div class="flex justify-between items-center pb-4">
+                        <div class="options flex gap-2 text-blue-600 ">
+                            <span class="material-symbols-outlined">
+                                imagesmode
+                            </span>
+                            <span class="material-symbols-outlined">
+                                gif_box
+                            </span>
+                            <span class="material-symbols-outlined">
+                                ballot
+                            </span>
+                            <span class="material-symbols-outlined">
+                                mood
+                            </span>
+                            <span class="material-symbols-outlined">
+                                pending_actions
+                            </span>
+                            <span class="material-symbols-outlined">
+                                location_on
+                            </span>
+                        </div>
+                        <button class="mr-6 px-4 py-1 rounded-full text-lg bg-blue-600 ">Post</button>
                     </div>
                 </div>
 
             </div>
             <div class="h-[1px] w-full bg-gray-700"></div>
+            <p class="text-blue-600 text-center p-3">Show 560 posts</p>
+            <div class="h-[1px] w-full bg-gray-700"></div>
 
+            <div class="content">
+                <div class="h-[1px] w-full bg-gray-700"></div>
+                <div class="contentItem ">
+                    <div class="flex gap-4 p-2">
+                        <img class="rounded-full" src="images/user.png" alt="">
+                        <div class="details ">
+                            <div class="heading flex justify-between ">
+                                <p class="font-bold">Dom Lucre|Breaker of Narratives@dom_lucre.8h</p>
+                                <div>...</div>
+                            </div>
+                            <p class="text-sm">If we have a civil war Trump wouldn't be allowed to be President. Is this
+                                all planned?</p>
+                        </div>
+
+                    </div>
+                    <div class="imgcontent rounded-2xl pl-24 pr-3 pb-6">
+                        <img class="rounded-2xl" src="images/contentItem1.jpg" alt="">
+                    </div>
+
+                </div>
+
+
+                
+                <div class="h-[1px] w-full bg-gray-700"></div>
+                <div class="contentItem ">
+                    <div class="flex gap-4 p-2">
+                        <img class="rounded-full" src="images/user.png" alt="">
+                        <div class="details ">
+                            <div class="heading flex justify-between ">
+                                <p class="font-bold">Historic Vids|@historyinmemes.4h</p>
+                                <div>...</div>
+                            </div>
+                            <p class="text-sm">When Chelsea players bullied Leo Messi, who was still 19 years old at
+                                that time</p>
+                        </div>
+
+                    </div>
+                    <div class="imgcontent rounded-2xl pl-24 pr-3 pb-6">
+                        <img class="rounded-2xl" src="images/contentItem1.jpg" alt="">
+                    </div>
+
+                </div>
+                <div class="h-[1px] w-full bg-gray-700"></div>
+                <div class="contentItem ">
+                    <div class="flex gap-4 p-2">
+                        <img class="rounded-full" src="images/user.png" alt="">
+                        <div class="details ">
+                            <div class="heading flex justify-between ">
+                                <p class="font-bold">Historic Vids|@historyinmemes . 4h</p>
+                                <div>...</div>
+                            </div>
+                            <p class="text-sm">When Chelsea players bullied Leo Messi, who was still 19 years old at
+                                that time</p>
+                        </div>
+
+                    </div>
+                    <div class="imgcontent rounded-2xl pl-24 pr-3 pb-6">
+                        <img class="rounded-2xl" src="images/contentItem1.jpg" alt="">
+                    </div>
+
+                </div>
+                <div class="h-[1px] w-full bg-gray-700"></div>
+            </div>
         </div>
 
         <!-- Right Section -->
