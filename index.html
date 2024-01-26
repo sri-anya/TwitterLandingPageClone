@@ -11,14 +11,14 @@
 </head>
 
 <body class="bg-black text-white ">
-    <div class="flex container mx-auto   ">
+    <div class="flex container mx-auto">
         <div class="first  w-[75%] my-5 pr-20 ">
 
             <div class="sidebar flex justify-end m-auto sticky top-0">
                 <div class="logo invert pr-20  pb-6">
                     <img class="w-8 m-auto " src="images/logo.svg" alt="ok">
-    
-    
+
+
                 </div>
                 <ul class="flex flex-col  text-xl space-y-1 ">
                     <li
@@ -91,34 +91,62 @@
         </div>
 
         <!-- Middle Section -->
-        <div class="second over  w-[75%]  border-x-slate-800 border-[1px] border-y-black">
-            
-            <div class="bg-red-200 h-44">Ananya</div>
-            <div class="bg-red-200 h-44">Ananya</div>
-            <div class="bg-red-200 h-44">Ananya</div>
-            <div class="bg-red-200 h-44">Ananya</div>
-            <div class="bg-red-200 h-44">Ananya</div>
-            <div class="bg-red-200 h-44">Ananya</div>
-            <div class="bg-red-200 h-44">Ananya</div>
-            <div class="bg-red-200 h-44">Ananya</div>
-            <div class="bg-red-200 h-44">Ananya</div>
-            <div class="bg-red-200 h-44">Ananya</div>
-            <div class="bg-red-200 h-44">Ananya</div>
-            <div class="bg-red-200 h-44">Ananya</div>
-            <div class="bg-red-200 h-44">Ananya</div>
-            <div class="bg-red-200 h-44">Ananya</div>
-            <div class="bg-red-200 h-44">Ananya</div>
-            <div class="bg-red-200 h-44">Ananya</div>
-            <div class="bg-red-200 h-44">Ananya</div>
-            <div class="bg-red-200 h-44">Ananya</div>
-            <div class="bg-red-200 h-44">Ananya</div>
-            <div class="bg-red-200 h-44">Ananya</div>
-       
+        <div class="second over  w-[80%]  border-x-slate-800 border-[1px] border-y-black">
+
+            <div class="top flex m-3 relative">
+                <div class="absolute w-16 h-1 bg-blue-700 -bottom-3 left-[17%] rounded-sm"></div>
+                <div class="left w-1/2 text-center font-bold z-10">For you</div>
+                <div class="right w-1/2 text-center font bold">Following</div>
+                <div class="settings"><span class=" material-symbols-outlined">
+                        settings
+                    </span></div>
+            </div>
+            <div class="h-[1px] w-full bg-gray-700"></div>
+            <div class="whatishappening flex gap-3">
+                <div class="img m-2">
+                    <img class="rounded-full " src="images/user.png" alt="">
+                </div>
+                <div class="w-full">
+                    <input class=" text-xl w-full my-5 h-7 outline-none bg-black text-white " type="text"
+                        placeholder="What is happening?!">
+                    <div class="text-blue-600 my-4 flex items-center justify-start gap-3">
+                        <span class="material-symbols-outlined">
+                            globe_asia
+                        </span>
+                        <span>Everyone can reply</span>
+
+                    </div>
+                    <div class="w-[95%] h-[1px] bg-gray-700  my-3 "></div>
+                    <div class="options flex gap-2 text-blue-600">
+                        <span class="material-symbols-outlined">
+                            imagesmode
+                        </span>
+                        <span class="material-symbols-outlined">
+                            gif_box
+                        </span>
+                        <span class="material-symbols-outlined">
+                            ballot
+                        </span>
+                        <span class="material-symbols-outlined">
+                            mood
+                        </span>
+                        <span class="material-symbols-outlined">
+                            pending_actions
+                        </span>
+                        <span class="material-symbols-outlined">
+                            location_on
+                        </span>
+                    </div>
+                </div>
+
+            </div>
+            <div class="h-[1px] w-full bg-gray-700"></div>
+
         </div>
 
         <!-- Right Section -->
-        <div class="third  w-1/2 mx-3 mr-40 ">
-            <div class="search  flex items-center gap-2 my-5 py-0 bg-[#16181c] rounded-full">
+        <div class="third  w-[55%] mx-3 mr-40 ">
+            <div class="search  flex items-center gap-2 m-3 py-0 bg-[#16181c] rounded-full fixed top-0">
                 <div class="px-3 search-image">
                     <span class=" w-4 h-4 material-symbols-outlined">search</span>
                 </div>
@@ -127,17 +155,20 @@
                     placeholder="Search">
             </div>
 
-            <div class="whatIsHappening p-3 space-y-3 bg-[#16181c] rounded-lg flex flex-col gap-4 sticky top-0">
+            <div class="whatIsHappening p-2 space-y-3 bg-[#16181c] rounded-lg flex flex-col gap-4 sticky top-16">
                 <h1 class="font-extrabold">What's happening</h1>
-                <div class="item hover:bg-[#212329]">
-                    <h3 class="font-semibold">Thunder at Spurs</h3>
-                    <p class="text-gray-600  text-xs">
-                        NBA . 21 minutes ago
-                    </p>
+                <div class="item hover:bg-[#212329] flex justify-between">
+                    <div>
+                        <h3 class="font-semibold">Thunder at Spurs</h3>
+                        <p class="text-gray-600  text-xs">
+                            NBA . 21 minutes ago
+                        </p>
+                    </div>
+                    <div><img class="w-24 h-20 rounded-lg  object-fill" src="images/rightBarImage.jpg" alt=""></div>
                 </div>
                 <div class="item hover:bg-[#212329]">
                     <p class="text-gray-600  text-xs">
-                       Music . Trending
+                        Music . Trending
                     </p>
                     <h3 class="font-semibold">Taylor Swift AI</h3>
                     <p class="text-gray-600  text-xs">
@@ -174,8 +205,69 @@
                 <div class="text-blue-500 showMore">Show more</div>
 
             </div>
+
+            <!-- <div class="whotoFollow p-2 my-2 bg-[#16181c] rounded-lg flex flex-col gap-4 sticky top-[567px]"> -->
+            <div class="whotoFollow p-2 my-2 bg-[#16181c] rounded-lg flex flex-col gap-4 sticky top-3/4">
+                <h1 class="font-extrabold">Who to follow</h1>
+                <div class="followItem flex justify-between hover:bg-[#212329]">
+                    <div class="item  flex justify-between items-center">
+                        <div class="flex gap-2">
+                            <img class="w-14 h-14 rounded-full"
+                                src="https://pbs.twimg.com/profile_images/738810295301246977/sJKDqlWh_bigger.jpg"
+                                alt="foodandwinelogo">
+                            <div class="flex flex-col">
+                                <h3 class="font-semibold">Food & Wine <span><img class="w-4 h-4"
+                                            src="images/yellowTick.svg" alt=""></span></h3>
+                                <p class="text-gray-600 ">
+                                    @foodandwine
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                    <div>
+                        <button class="bg-white px-4 py-1 text-black font-semibold rounded-full">Follow</button>
+                    </div>
+                </div>
+                <div class="followItem flex justify-between hover:bg-[#212329]">
+                    <div class="item  flex justify-between items-center">
+                        <div class="flex gap-2">
+                            <img class="w-14 h-14 rounded-full"
+                                src="https://pbs.twimg.com/profile_images/1690639682667794434/6LEncWTX_x96.jpg"
+                                alt="foodandwinelogo">
+                            <div class="flex flex-col">
+                                <h3 class="font-semibold">National Career Services </h3>
+                                <p class="text-gray-600 ">
+                                    @NCSIndia
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                    <div>
+                        <button class="bg-white px-4 py-1 text-black font-semibold rounded-full">Follow</button>
+                    </div>
+
+                </div>
+
+            </div>
+            <!-- <div class="rightFooter bg-black ">
+                <ul class="flex gap-2 text-xs flex-wrap">
+                    <li class="w-fit">Terms of Service</li>
+                    <li class="w-fit">Privacy Policy</li>
+                    <li class="w-fit">Cookie Policy</li>
+                    <li class="w-fit">Accessibility</li>
+                    <li class="w-fit">Ads info</li>
+                    <li class="w-fit">More..</li>
+                    <li class="w-fit">@ 2024 X Corp.</li>
+                </ul>
+            </div> -->
+
         </div>
-    </div>
 
 </body>
 
