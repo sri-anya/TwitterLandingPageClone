@@ -12,76 +12,82 @@
 
 <body class="bg-black text-white ">
     <div class="flex container mx-auto">
-        <div class="first  w-[40%] my-5 ml-20 mr-0 pr-20">
+        <div class=" first  xl:w-[40%] my-5  mr-0 pr-0 xl:pr-20 ml-20">
 
             <div class="sidebar flex flex-col justify-end m-auto sticky top-0">
-                <div class="logo invert pr-48  pb-6 ">
+                <div class="logo invert w-fit pb-6  xl:pr-48 ">
                     <img class="w-8 m-auto " src="images/logo.svg" alt="ok">
                 </div>
                 <ul class="flex flex-col  text-xl space-y-1 ">
                     <li
                         class="flex  gap-4 w-fit px-4 py-2 hover:bg-[#16181c] hover:border-0 hover:rounded-2xl hover:cursor-pointer">
-                        <img class="invert w-6" src="images/home.svg" alt="">Home
+                        <img class="w-6 invert" src="images/home.svg" alt=""><span class="hidden xl:block">Home</span>
                     </li>
 
                     <li
                         class="flex  gap-4 w-fit px-4 py-2 hover:bg-[#16181c] hover:border-0 hover:rounded-2xl hover:cursor-pointer">
-                        <span class="material-symbols-outlined">search</span>Explore
+                        <span class="material-symbols-outlined">search</span><span class="hidden xl:block">Explore</span>
                     </li>
                     <li
                         class="flex  gap-4 w-fit px-4 py-2 hover:bg-[#16181c] hover:border-0 hover:rounded-2xl hover:cursor-pointer">
-                        <span class="material-symbols-outlined">notifications</span>Notifications
+                        <span class="material-symbols-outlined">notifications</span><span class="hidden xl:block">Notifications</span>
                     </li>
                     <li
                         class="flex  gap-4 w-fit px-4 py-2 hover:bg-[#16181c] hover:border-0 hover:rounded-2xl hover:cursor-pointer">
                         <span class="material-symbols-outlined">
                             mail
-                        </span>Messages
+                        </span><span class="hidden xl:block">Messages</span>
                     </li>
                     <li
                         class="flex  gap-4 w-fit px-4 py-2 hover:bg-[#16181c] hover:border-0 hover:rounded-2xl hover:cursor-pointer">
-                        <img class="w-6 invert" src="images/grok.svg" alt="">Grok
+                        <img class="w-6 invert" src="images/grok.svg" alt=""><span class="hidden xl:block">Grok</span>
                     </li>
                     <li
                         class="flex  gap-4 w-fit px-4 py-2 hover:bg-[#16181c] hover:border-0 hover:rounded-2xl hover:cursor-pointer">
                         <span class="material-symbols-outlined">
                             featured_play_list
-                        </span>Lists
+                        </span><span class="hidden xl:block">Lists</span>
                     </li>
                     <li
                         class="flex  gap-4 w-fit px-4 py-2 hover:bg-[#16181c] hover:border-0 hover:rounded-lg hover:cursor-pointer">
                         <span class="material-symbols-outlined">
                             bookmark
-                        </span>Bookmarks
+                        </span><span class="hidden xl:block">Bookmarks</span>
                     </li>
                     <li
                         class="flex  gap-4 w-fit px-4 py-2 hover:bg-[#16181c] hover:border-0 hover:rounded-lg hover:cursor-pointer">
-                        <img class="w-6 invert" src="images/communities.svg" alt="">Communities
+                        <img class="w-6 invert" src="images/communities.svg" alt=""><span class="hidden xl:block">Communities</span>
                     </li>
                     <li
                         class="flex  gap-4 w-fit px-4 py-2 hover:bg-[#16181c] hover:border-0 hover:rounded-lg hover:cursor-pointer">
-                        <img class="w-6 invert" src="images/premium.svg" alt="">Premium
+                        <img class="w-6 invert" src="images/premium.svg" alt=""><span class="hidden xl:block">Premium</span>
                     </li>
                     <li
                         class="flex  gap-4 w-fit px-4 py-2 hover:bg-[#16181c] hover:border-0 hover:rounded-lg hover:cursor-pointer">
-                        <img class="w-6 invert" src="images/profile.svg" alt="">Profile
+                        <img class="w-6 invert" src="images/profile.svg" alt=""><span class="hidden xl:block">Profile</span>
                     </li>
                     <li
                         class="flex  gap-4 w-fit px-4 py-2 hover:bg-[#16181c] hover:border-0 hover:rounded-lg hover:cursor-pointer">
                         <span class="material-symbols-outlined">
                             pending
-                        </span>More
+                        </span><span class="hidden xl:block">More</span>
                     </li>
                     <button
-                        class="bg-blue-400 text-white font-bold px-28 py-4 border-0 rounded-full hover:cursor-pointer">Post</button>
+                        class="bg-blue-400 text-white font-bold px-28 py-4 border-0 rounded-full hover:cursor-pointer hidden xl:block">Post
+                    </button>
+                    <button
+                        class="bg-blue-400 text-white  border-0 rounded-full hover:cursor-pointer m-2 w-12 p-2 block xl:hidden"><span class= "material-symbols-outlined">
+                            stylus_note
+                            </span>
+                    </button>
 
                     <div class="user flex gap-3 items-center">
                         <img class="rounded-full w-10 h-10 my-20" src="images/user.png" alt="">
                         <div class="userCredential">
-                            <div class="blur-sm">Aastha S</div>
-                            <div class="blur-sm">@S1010952S</div>
+                            <div class="blur-sm"><span class="hidden xl:block">Aastha S</span></div>
+                            <div class="blur-sm"><span class="hidden xl:block">@S1010952S</span></div>
                         </div>
-                        <div class="dots ml-16">...</div>
+                        <div class="dots ml-16"><span class="hidden xl:block">...</span></div>
                     </div>
                 </ul>
 
@@ -90,8 +96,8 @@
 
         <!-- Middle Section -->
         <div class="second over  w-[80%]  border-x-slate-800 border-[1px] border-y-black">
-            <div class="sticky top-0">
-                <div class="top flex my-3 relative ">
+            <!-- <div class="sticky top-0 bg-black-900 backdrop-blur-lg opacity-35"> -->
+                <div class="top flex my-3  sticky top-0 bg-black-900 backdrop-blur-3xl opacity-65 ">
                     <div class="absolute w-16 h-1 bg-blue-700 -bottom-3 left-[17%] rounded-sm"></div>
                     <div class="left w-1/2 text-center font-bold z-10">For you</div>
                     <div class="right w-1/2 text-center font bold">Following</div>
@@ -100,7 +106,7 @@
                         </span></div>
                     <div class="absolute -bottom-3 h-[1px] w-full bg-gray-700"></div>
                 </div>
-            </div>
+            <!-- </div> -->
 
 
             <div class="whatishappening flex gap-3">
